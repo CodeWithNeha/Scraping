@@ -42,7 +42,7 @@ The script will send a GET request to the specified URL, parse the HTML content,
 
 To customize the scraping process for different web pages, consider the following modifications:
 
-- **URL**: Change the `url` variable in the `scraping.py` file to the desired webpage URL.
+- **URL**: Change the `url` variable in the `scraper.py` file to the desired webpage URL.
 
 - **HTML Tags**: Update the HTML tags in the code to match the specific elements you want to extract. Use the `find_all()` method to locate elements based on their HTML tags, and the `get()` or `text` methods to retrieve specific attributes or text content.
 
